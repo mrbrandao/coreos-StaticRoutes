@@ -1,0 +1,5 @@
+---
+# tasks file for coreos-StaticRoutes
+
+#--- Setup ---
+- include: routes.yml

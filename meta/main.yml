@@ -1,0 +1,16 @@
+galaxy_info:
+  author: isca
+  description: "Add static routes on CoreOS hosts in simple and fast way"
+  company: "isca.space"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.1
+  platforms:
+    - name: CoreOS
+      versions:
+      - all
+  galaxy_tags: 
+    - coreos
+    - routes
+    - static
+    - network
+    - route

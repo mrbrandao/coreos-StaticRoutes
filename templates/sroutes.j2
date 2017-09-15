@@ -1,0 +1,7 @@
+{{ ansible_managed | comment }}
+{% for ips in routes %}
+[Route]
+Gateway={{ ips.gateway }}
+Destination={{ ips.network }}
+#
+{% endfor %}

@@ -1,0 +1,10 @@
+---
+# handlers file for coreos-StaticRoutes
+
+- name: " Daemon | Restarting Networkd "
+  service:
+    name: systemd-networkd
+    state: restarted
+  register: RestartedNetwork
+  listen: "restart networkd"
+

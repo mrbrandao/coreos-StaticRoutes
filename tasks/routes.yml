@@ -1,0 +1,14 @@
+---
+# Added static routes on coreos 
+# Changes will be aplied to file 10-static.network on coreos hosts
+
+- name: " Setup | Adding Static Routes "
+  template:
+    src: sroutes.j2
+    dest: "{{ snetfile }}"
+    backup: true
+  notify: [ 'restart networkd' ]
+  with_items: "{{ routes }}"
+
+
+

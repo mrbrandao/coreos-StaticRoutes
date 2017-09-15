@@ -1,0 +1,4 @@
+---
+# vars file for coreos-StaticRoutes
+
+snetfile: "/etc/systemd/network/10-static.network"
