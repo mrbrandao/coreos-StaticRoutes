@@ -3,6 +3,8 @@ CoreOs Static Routes
 
 A simple way to add Static Routes on CoreOS Machines
 
+[![Build Status](https://travis-ci.org/isca0/coreos-StaticRoutes.svg?branch=master)](https://travis-ci.org/isca0/coreos-StaticRoutes)
+
 Requirements
 ------------
 
